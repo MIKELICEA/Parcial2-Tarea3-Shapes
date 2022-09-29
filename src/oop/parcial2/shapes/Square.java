@@ -1,10 +1,12 @@
 package oop.parcial2.shapes;
 
-public class Square extends Shape{
+import oop.parcial2.shapes.Shape;
+
+public class Square extends Shape {
     private float side;
     public Square(float side)
     {
-        super("Square");
+        super("Square", 4);
         this.side=side;
     }
 
@@ -20,8 +22,4 @@ public class Square extends Shape{
         return "■";
     }
 
-    public float getSidesCount()
-    {
-        return 4;
-    }
 }

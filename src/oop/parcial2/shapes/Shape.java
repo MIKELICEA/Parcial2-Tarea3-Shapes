@@ -3,9 +3,11 @@ package oop.parcial2.shapes;
 public abstract class Shape {
     private String name;
 
-    private String shape;
-    public Shape(String name) {
+    private int sidesCount;
+    public Shape(String name, int sidesCount) {
+
         this.name = name;
+        this.sidesCount = sidesCount;
     }
     public final String getName(){
         return name;
@@ -13,5 +15,8 @@ public abstract class Shape {
 
     public abstract float getArea();
     public abstract float getPerimeter();
-    public abstract float getSidesCount();
+    public int getSidesCount() {
+        return sidesCount;
+    }
 }
+

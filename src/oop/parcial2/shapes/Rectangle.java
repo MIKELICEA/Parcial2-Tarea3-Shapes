@@ -1,11 +1,11 @@
 package oop.parcial2.shapes;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private float base;
     private float height;
     public Rectangle(float base,float height)
     {
-        super("Rectangle");
+        super("Rectangle", 4);
         this.base=base;
         this.height=height;
     }
@@ -22,8 +22,4 @@ public class Rectangle extends Shape{
         return "█";
     }
 
-    public float getSidesCount()
-    {
-        return 4;
-    }
 }

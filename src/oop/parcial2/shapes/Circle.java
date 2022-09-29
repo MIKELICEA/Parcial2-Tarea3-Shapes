@@ -1,10 +1,10 @@
 package oop.parcial2.shapes;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     private float radio;
     public Circle(float radio)
     {
-        super("Circle");
+        super("Circle", 1);
         this.radio=radio;
     }
     public float getArea(){
@@ -19,8 +19,4 @@ public class Circle extends Shape{
         return "○";
     }
 
-    public float getSidesCount()
-    {
-        return 1;
-    }
 }

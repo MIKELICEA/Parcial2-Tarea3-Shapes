@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="893dec45-4c5d-4bec-bafb-37a12e656cb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/parcial2/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/parcial2/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/parcial2/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/parcial2/shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/shapes/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/parcial2/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/parcial2/shapes/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -48,7 +52,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664282543758</updated>
-      <workItem from="1664282545654" duration="6379000" />
+      <workItem from="1664282545654" duration="7175000" />
+      <workItem from="1664418639392" duration="52000" />
+      <workItem from="1664457347782" duration="2386000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,13 @@
 package oop.parcial2.shapes;
 
-public class Triangle extends Shape{
+import oop.parcial2.shapes.Shape;
+
+public class Triangle extends Shape {
     private float base;
     private float height;
     public Triangle(float base,float height)
     {
-        super("Triangle");
+        super("Triangle", 3);
         this.base=base;
         this.height=height;
     }
@@ -22,8 +24,5 @@ public class Triangle extends Shape{
         return "▲";
     }
 
-    public float getSidesCount()
-    {
-        return 3;
-    }
 }
+

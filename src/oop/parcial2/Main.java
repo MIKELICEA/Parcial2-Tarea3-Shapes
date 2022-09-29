@@ -1,3 +1,5 @@
+package oop.parcial2;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,7 +18,7 @@ public class Main {
 
 
         for(Shape shape: shapes){
-            System.out.println("Shape: " + shape.getName() + ": " + shape); //with shape print something related to the actual shape, for example ○ ▲ ■ █
+            System.out.println("oop.parcial2.shapes.Shape: " + shape.getName() + ": " + shape); //with shape print something related to the actual shape, for example ○ ▲ ■ █
             System.out.println("Real class name: " + shape.getClass().getName());
             System.out.println("Sides count: " + shape.getSidesCount());
             System.out.println("Perimeter: " + shape.getPerimeter());
